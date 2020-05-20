@@ -19,11 +19,10 @@ namespace YALB
             }
         }
 
-        //[ParamsAllValues]
+        [ParamsAllValues]
         public bool MakeGarbage = true;
 
-        //[Params(1, 10, 100, 1000)]
-        [Params(1, 100)]
+        [Params(1, 10, 100, 1000)]
         public int N = 100;
 
         private string[] _lstData;
